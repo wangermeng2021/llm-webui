@@ -1,0 +1,35 @@
+model:
+  base_model: TheBloke/Llama-2-7B-fp16
+  context_window: 4096  
+  lora:
+    r: 8
+    lora_alpha: 32 
+    lora_dropout: 0.05
+    bias: none
+trainer:
+  batch_size: 1
+  gradient_accumulation_steps: 4
+  warmup_steps: 100
+  num_train_epochs: 1
+  learning_rate: 0.0002  # 2e-4
+  logging_steps: 20
+trainer_output_dir: trainer_outputs/
+model_output_dir: models/  # model saved in {model_output_dir}/{model_name}
+
+model_list: [meta-llama/Llama-2-7b-hf,
+             meta-llama/Llama-2-7b-chat-hf,
+             meta-llama/Llama-2-13b-hf,
+             meta-llama/Llama-2-13b-chat-hf,
+             TheBloke/Llama-2-7B-fp16,
+             TheBloke/Llama-2-7b-chat-fp16,
+             TheBloke/Llama-2-13B-fp16
+             TheBloke/Llama-2-13B-Chat-fp16,
+             mistralai/Mistral-7B-v0.1,
+             mistralai/Mistral-7B-Instruct-v0.1,
+]
+embedding_model_list: [all-mpnet-base-v2,
+             multi-qa-mpnet-base-dot-v1,
+             all-distilroberta-v1,
+             all-MiniLM-L12-v2,all-MiniLM-L6-v2,paraphrase-albert-small-v2
+]
+

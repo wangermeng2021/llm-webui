@@ -1,0 +1,16 @@
+gradio==3.48.0
+sentence-transformers
+chromadb
+langchain
+python-dotenv
+huggingface-hub
+transformers
+accelerate
+bitsandbytes
+numpy
+auto-gptq
+optimum
+llama-cpp-python
+scipy
+tensorboard
+einops

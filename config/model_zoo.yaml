@@ -1,0 +1,14 @@
+model_list: [mistralai/Mistral-7B-Instruct-v0.1,
+             HuggingFaceH4/zephyr-7b-beta,
+             meta-llama/Llama-2-7b-chat-hf,
+             microsoft/phi-1_5,
+             TheBloke/zephyr-7B-beta-GGUF/zephyr-7b-beta.Q4_K_M.gguf,
+             TheBloke/Mistral-7B-Instruct-v0.1-GGUF/mistral-7b-instruct-v0.1.Q4_K_M.gguf,
+             TheBloke/Llama-2-7B-Chat-GGUF/llama-2-7b-chat.Q4_K_M.gguf]
+embedding_model_list: [sentence-transformers/all-MiniLM-L6-v2,
+sentence-transformers/all-mpnet-base-v2,
+sentence-transformers/multi-qa-mpnet-base-dot-v1,
+sentence-transformers/all-distilroberta-v1,
+sentence-transformers/all-MiniLM-L12-v2,
+sentence-transformers/paraphrase-albert-small-v2]
+

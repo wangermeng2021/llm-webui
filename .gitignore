@@ -1,0 +1,12 @@
+.idea/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+src/finetune/__pycache__/
+src/finetune/__pycache__/
+src/rag/__pycache__/
+src/utils/__pycache__/

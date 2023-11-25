@@ -1,0 +1,50 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "python_code_instructions_18k_alpaca",
+  "dataset_size": 25180782,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/iamtarun/python_code_instructions_18k_alpaca@7cae181e29701a8663a07a3ea43c8e105b663ba1/data/train-00000-of-00001-8b6e212f3e1ece96.parquet": {
+      "num_bytes": 11357076,
+      "checksum": null
+    }
+  },
+  "download_size": 11357076,
+  "features": {
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 36537858,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 25180782,
+      "num_examples": 18612,
+      "dataset_name": "python_code_instructions_18k_alpaca"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
