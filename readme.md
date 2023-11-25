@@ -1,4 +1,5 @@
 # llm-webui
+A Gradio web UI for Large Language Models(Finetune, RAG, Chat).
 ### Chat UI
 ![](https://github.com/wangermeng2021/llm-webui/blob/main/pics/UI_1.png)
 ### Training UI
