@@ -1759,9 +1759,9 @@ with gr.Blocks(title="FINETUNE",css="#vertical_center_align_markdown { position:
         ,prefix3_textbox,datatset_col3_dropdown,prefix4_textbox,datatset_col4_dropdown],[prompt_sample_textbox])
     datatset_col2_dropdown.change(change_dataset_col2, [prefix1_textbox,datatset_col1_dropdown,prefix2_textbox,datatset_col2_dropdown
         ,prefix3_textbox,datatset_col3_dropdown,prefix4_textbox,datatset_col4_dropdown], [prompt_sample_textbox])
-    datatset_col3_dropdown.change(change_dataset_col3, [prefix1_textbox,datatset_col1_dropdown,prefix2_textbox,datatset_col3_dropdown
+    datatset_col3_dropdown.change(change_dataset_col3, [prefix1_textbox,datatset_col1_dropdown,prefix2_textbox,datatset_col2_dropdown
         ,prefix3_textbox,datatset_col3_dropdown,prefix4_textbox,datatset_col4_dropdown], [prompt_sample_textbox])
-    datatset_col4_dropdown.change(change_dataset_col4, [prefix1_textbox,datatset_col1_dropdown,prefix2_textbox,datatset_col4_dropdown
+    datatset_col4_dropdown.change(change_dataset_col4, [prefix1_textbox,datatset_col1_dropdown,prefix2_textbox,datatset_col2_dropdown
         ,prefix3_textbox,datatset_col3_dropdown,prefix4_textbox,datatset_col4_dropdown], [prompt_sample_textbox])
     prefix1_textbox.change(change_prefix1_textbox,
                                   [prefix1_textbox, datatset_col1_dropdown, prefix2_textbox, datatset_col2_dropdown
@@ -1772,11 +1772,11 @@ with gr.Blocks(title="FINETUNE",css="#vertical_center_align_markdown { position:
                                       ,prefix3_textbox,datatset_col3_dropdown,prefix4_textbox,datatset_col4_dropdown],
                                   [prompt_sample_textbox])
     prefix3_textbox.change(change_prefix3_textbox,
-                                  [prefix1_textbox, datatset_col1_dropdown, prefix3_textbox, datatset_col2_dropdown
+                                  [prefix1_textbox, datatset_col1_dropdown, prefix2_textbox, datatset_col2_dropdown
                                       ,prefix3_textbox,datatset_col3_dropdown,prefix4_textbox,datatset_col4_dropdown],
                                   [prompt_sample_textbox])
     prefix4_textbox.change(change_prefix4_textbox,
-                                  [prefix1_textbox, datatset_col1_dropdown, prefix4_textbox, datatset_col2_dropdown
+                                  [prefix1_textbox, datatset_col1_dropdown, prefix2_textbox, datatset_col2_dropdown
                                       ,prefix3_textbox,datatset_col3_dropdown,prefix4_textbox,datatset_col4_dropdown],
                                   [prompt_sample_textbox])
 
